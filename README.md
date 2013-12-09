@@ -87,3 +87,24 @@
 * 在行首加点
 行首输入*，空格后输入内容即可
     
+
+### 表格 
+
+
+	|ID |公司 | 简介 |
+	|-----|------|------|
+	|[@w3c中国](http://weibo.com/w3cchina)|#|万维网联盟中国办事处官方微博|
+	|[@TheFrontEnd](http://weibo.com/javascriptdev)|#|JavaScript技术资讯、新闻、教程、深度文章。|
+	|[@前端快爆](http://weibo.com/fekb)|阿里巴巴|有HTML5、CSS3、JS |
+	|[@HTML5中国](http://e.weibo.com/html5cn)|#|中国www.html5cn.org官方微博|
+	|[@developerWorks](http://weibo.com/developerworks)|#|#|
+
+如下
+
+|ID |公司 | 简介 |
+|-----|------|------|
+|[@w3c中国](http://weibo.com/w3cchina)|#|万维网联盟中国办事处官方微博|
+|[@TheFrontEnd](http://weibo.com/javascriptdev)|#|JavaScript技术资讯、新闻、教程、深度文章。|
+|[@前端快爆](http://weibo.com/fekb)|阿里巴巴|有HTML5、CSS3、JS |
+|[@HTML5中国](http://e.weibo.com/html5cn)|#|中国www.html5cn.org官方微博|
+|[@developerWorks](http://weibo.com/developerworks)|#|#|
