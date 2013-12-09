@@ -1,4 +1,8 @@
 针对中文,演示Markdown的各种语法
+
+
+
+
   
 大标题
 ===================================
@@ -50,16 +54,6 @@
 	    }
 
     }
-### 链接
-1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />
-2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
-
-###只是显示图片
-![github](http://github.com/unicorn.png "github")
-
-###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com
-[![image]](http://www.github.com/)
-[image]: http://github.com/github.png "github"
 
 ### 文字被些字符包围
 > 文字被些字符包围
@@ -108,3 +102,23 @@
 |[@前端快爆](http://weibo.com/fekb)|阿里巴巴|有HTML5、CSS3、JS |
 |[@HTML5中国](http://e.weibo.com/html5cn)|#|中国www.html5cn.org官方微博|
 |[@developerWorks](http://weibo.com/developerworks)|#|#|
+
+
+###链接
+	[我是链接文本](http://www.xx.com)
+
+[我是链接文本](http://www.xx.com)
+
+
+###只是显示图片 
+    ![github](http://github.com/unicorn.png "alt 提示") 
+    
+![github](http://github.com/unicorn.png "alt 提示")  
+  
+###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com  
+
+	[![image]](http://www.github.com/)  
+	[image]: http://github.com/github.png
+
+[![image]](http://www.github.com/)  
+[image]: http://github.com/github.png
