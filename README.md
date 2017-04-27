@@ -146,27 +146,104 @@
 
 如下
 
-表格
-====================
 |字段1|字段2|字段3|
 |---|:---:|---:|
 |默认我是左对齐|我是居中对齐|我是右对齐|
 
-###链接
+### 链接
 	[我是链接文本](http://www.xx.com)
 
 [我是链接文本](http://www.xx.com)
 
 
-###只是显示图片 
+### 只是显示图片 
     ![github](http://github.com/unicorn.png "alt 提示") 
     
 ![github](http://github.com/unicorn.png "alt 提示")  
   
-###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com  
+### 想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com  
 
 	[![image]](http://www.github.com/)  
 	[image]: http://github.com/github.png
 
 [![image]](http://www.github.com/)  
 [image]: http://github.com/github.png
+
+#### 超链接
+[我是超链接 指向baidu](http://www.baidu.com)
+
+#### 我是图片
+
+![image1](http://note.youdao.com/iyoudao/wp-content/themes/youdao2012/images/header-s8b121c3b5e.png)
+
+
+#### 下面这个图片带链接 （也就是超链接与图片的合体）
+
+[![image1](http://note.youdao.com/iyoudao/wp-content/themes/youdao2012/images/header-s8b121c3b5e.png)](http://www.youdao.com )
+
+#### 段落中链接引用 
+
+> 形式为 [文字][链接标识符]
+
+> 链接标识符**不区分大小写** 字母，数字，空白和标点符号
+
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. [Google][1] 
+
+[1]: http://google.com/        "Google 这里是alt值" 
+[2]: http://search.yahoo.com/  "Yahoo Search" 
+[3]: http://search.msn.com/    "MSN Search"
+
+> 以上形式必须要注意的是正文与链接 之间必须要有一个空行
+
+>也可以用以下语法来 推荐还是用上面的语法
+
+I get 10 times more traffic from [Google][] than from [Yahoo][] or [MSN][].  
+
+[Google]: http://google.com/        "Google 这里是alt值" 
+[Yahoo]: http://search.yahoo.com/  "Yahoo Search" 
+[MSN]: http://search.msn.com/    "MSN Search"
+
+#### 图片 
+
+``` 
+![Alt text](/path/to/img.jpg "Optional title")
+
+```
+### 图片指定 
+```
+![Alt text][id]
+
+[id]: url/to/image  "Optional title attribute"
+```
+
+### 所以对于图片链接的混合体就是
+```
+[图片代码](链接 "title")
+
+展开后如下
+
+[![Alt text](/path/to/img.jpg "Optional title")](链接 "title")
+```
+
+### 自动链接 邮件也如此
+<http://baidu.com>
+<39192170@qq.com>
+
+#### 转义语法 
+Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：
+
+```
+\   反斜线
+`   反引号
+*   星号
+_   底线
+{}  花括号
+[]  方括号
+()  括弧
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   惊叹号
+```
+
